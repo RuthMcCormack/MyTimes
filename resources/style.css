@@ -1,20 +1,40 @@
+body {
+  margin: 0px;
+}
+
 .header {
-  font-family: Verdana;
+  display: flex;
+  font-family: verdana;
   font-size: 14px;
   font-weight: bold;
-  color: MediumAquamarine;
-  display: flex;
-  border-bottom: medium none black;
+  justify-content: space-between;
+  background-color: white;
+  border-bottom: thin solid black;
+  margin-top: 10px;
 }
 
 #logo {
-  display: flex;
-  padding-left: 100px;
+  display: inline-flex;
+  color: MediumAquamarine;
+  align-items: center;
+  padding: 10px 20px;
 }
 
-#nav {
-  display: inline-block;
-  color: black;
-  justify-content: center;
+#logo p {
+  padding-left: 15px;
+}
 
+nav {
+  display: inline-flex;
+  align-items: center;
+  padding: 10px;
+}
+
+nav span {
+  display: inline-block;
+  padding: 15px;
+}
+
+nav a {
+  color: black;
 }
