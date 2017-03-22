@@ -78,12 +78,20 @@ nav a {
   font-weight: bold;
   font-size: 40px;
   color: white;
+  min-width: 630px;
+  min-height: 300px;
+  align-items: center;
 }
 
 #story1-body, #story2, #story4, #story6, #story7-body {
   font-family: georgia;
   font-size: 17px;
   color: black;
+}
+
+#story2, #story4 {
+  max-width: 300px;
+  min-height: 300px;
 }
 
 #story3 {
@@ -94,6 +102,15 @@ nav a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  max-width: 300px;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
+}
+
+#substories {
+  flex-wrap: wrap;
+  display: inline-block;
 }
 
 #story5 {
@@ -104,6 +121,10 @@ nav a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  max-width: 300px;
+  min-height: 300px;
+  align-items: center;
+  justify-content: center;
 }
 
 #story7-headline {
@@ -114,6 +135,9 @@ nav a {
   font-weight: bold;
   font-size: 30px;
   color: white;
+  max-width: 300px;
+  min-height: 300px;
+  align-items: center;
 }
 
 .story8 {
@@ -154,12 +178,17 @@ nav a {
   font-size: 12px;
   color: black;
   border-top: 10px;
+  min-height: 300px;
 }
 
 .footer a{
   color: black;
   padding: 10px;
   display: inline-block;
+}
+
+div.copyright {
+  align-items: flex-end;
 }
 
 #name {
